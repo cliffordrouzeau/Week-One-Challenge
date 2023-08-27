@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+/*Added Display flex and space-between to have the header and nav in the same line */
 
 .header {
     padding: 20px;
@@ -26,6 +27,8 @@ body {
     color: #d9dcd6;
 }
 
+/*Switched div tag to header tag*/
+
 .header header {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,9 +37,14 @@ body {
     font-size: 20px;
 }
 
+/*Switched div tag to nav tag*/
+
+
 .header nav ul {
     list-style-type: none;
 }
+
+/*Switched div tag to nav tag*/
 
 .header nav ul li {
     display: inline-block;
